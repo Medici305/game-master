@@ -30,5 +30,3 @@ export const rating_URL = `${base}games?dates=${prevDate},${currentDate}&orderin
 export const latest_URL = `${base}games?dates=${prevDate},${currentDate}&ordering=released&page_size=12`;
 // Order by Name A-Z
 export const name_URL = `${base}games?dates=${prevDate},${currentDate}&ordering=name&page_size=12`;
-
-console.log(latest_URL);
